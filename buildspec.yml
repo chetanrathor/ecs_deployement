@@ -4,6 +4,8 @@ env:
   variables:
     AWS_ACCOUNT_ID: "257176947108"
     AWS_REGION: "ap-south-1"
+    REPOSITORY_NAME: "my_node_application"
+
 phases:
   pre_build:
     commands:
